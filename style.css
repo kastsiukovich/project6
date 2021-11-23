@@ -1,0 +1,75 @@
+.blue-custom{
+    background-color: #392DBE;
+}
+
+.red-custom{
+    background-color:#E54269;
+}
+
+.button-wrap > button{
+    margin: 0 12px;
+    color: #fff;
+    border-radius: 11px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    font-size: 18px;
+    line-height: 23px;
+    font-family: 'PT Sans';
+}
+
+.content{
+    background: url('images/background.png') no-repeat right center #000;
+    height: 100vh;
+    max-height: 800px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+h1{
+    color: #fff;
+    font-family: "Exo 2";
+    font-size: 55px;
+    line-height: 66px;
+    padding-top: 174px;
+}
+
+.content p{
+    color: #fff;
+    font-family: 'Ubuntu';
+    font-size: 20px;
+    line-height: 23px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    max-width: 633px;
+}
+
+
+@media screen and (max-width: 991.98px){
+    .button-wrap > button{
+        margin-bottom: 14px;
+        border-radius: 4px;
+    }
+    .content{
+        height: auto;
+    }
+}
+
+
+@media screen and (max-width: 768px){
+    h1{
+        font-weight: bold;
+        font-size: 35px;
+        line-height: 42px;
+    }
+    .content p{
+        font-size: 14px;
+        line-height: 16px;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .content{
+        background: #000;
+    }
+}
+
